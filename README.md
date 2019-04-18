@@ -1,5 +1,9 @@
 # Nimble RxTests
 
+[![Build Status](https://api.travis-ci.org/Badlazzor/NimbleRxTest.svg?branch=master)](https://travis-ci.org/Badlazzor/NimbleRxTest)
+[![CocoaPods](https://img.shields.io/cocoapods/v/NimbleRxTest.svg)](https://cocoapods.org/pods/NimbleRxTest)
+[![Reviewed by Hound](https://img.shields.io/badge/Reviewed_by-Hound-8E64B0.svg)](https://houndci.com)
+
 This tiny helper library helps connecting one of the most popular testing library for swift ([Quick](https://github.com/Quick/Quick)) with the reactive world. First when I had to write tests for a reactive project I was struggling with RxBlocking or event unwrapping usually using _.debug()_ to help understanding what is exactly happening in a reactive chain. After a while I thought "Oh, come on! I have this lovely Nimble thingy and I know XCAssert helper things was created for RxTest, why not do the same in Nimble?". Before I realised I used the same code to help me with binding Nimble and Rx together in 3 or 4 projects copying the same files in every one of them.
 
 And so the NimbleRxTest lib was born.
