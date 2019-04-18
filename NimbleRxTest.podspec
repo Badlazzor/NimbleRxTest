@@ -15,8 +15,8 @@ NimbleRxTest couples together RxTest and Nimble from Quick
   s.source_files   = 'NimbleRxTest/**/*.{swift,h,m}'
   s.ios.deployment_target  = '9.0'
 
-  spec.dependency 'Nimble'
-  spec.dependency 'Quick'
-  spec.dependency 'RxSwift'
-  spec.dependency 'RxTest'
+  s.dependency 'Nimble'
+  s.dependency 'Quick'
+  s.dependency 'RxSwift'
+  s.dependency 'RxTest'
 end
