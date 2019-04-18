@@ -40,7 +40,7 @@ final class Dolphin {
         }
     }
     
-    var encounter = PublishSubject<Any>()
+    let encounter = PublishSubject<Any>()
 }
 
 final class FactionSelectionViewModelTests: QuickSpec {
@@ -57,7 +57,7 @@ final class FactionSelectionViewModelTests: QuickSpec {
                 disposeBag = DisposeBag()
             }
             
-            describe("encountering") {
+            describe("encountering things") {
                 var encounters: [Recorded<Event<Any>>]!
                 
                 context("with a series of things") {
